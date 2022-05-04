@@ -1,0 +1,16 @@
+.section.hero {
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+    .custom-image {
+      background: #000;
+      height: 120px;
+      width: 100%;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }

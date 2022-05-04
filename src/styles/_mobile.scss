@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+  .title {
+    font-size: 10px;
+  }
+  .navbar {
+    .nav-links {
+      display: none;
+    }
+    .sidebar-btn {
+      display: block;
+    }
+  }
+  .sidebar-link {
+    display: block;
+    color: var(--text-color);
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    &.active {
+      border-left: 5px solid red;
+    }
+    svg {
+      margin-right: 10px;
+    }
+  }
+  .section {
+    flex-direction: column;
+    .col {
+      width: 100%;
+    }
+  }
+  .gallery {
+    margin-top: 20px;
+  }
+  .improve-skills {
+    flex-direction: column-reverse;
+  }
+  .info {
+    padding-bottom: 10px;
+  }
+  .recipes-container{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .section .title {
+    font-size: 40px;
+  }
+  .chiefs .top-chiefs-container {
+    grid-template-columns: 1fr;
+  }
+  .footer-wrapper .container {
+    flex-direction: column;
+  }
+  .recipes-container{
+    grid-template-columns: 1fr;
+  }
+}
